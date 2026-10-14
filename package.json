@@ -1,0 +1,12 @@
+{
+  "name": "shopkart",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "start:backend": "npm --prefix backend run start",
+    "seed": "npm --prefix backend run seed"
+  }
+}
